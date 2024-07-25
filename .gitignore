@@ -1,1 +1,65 @@
 /target/
+# Build directories
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+*.launch
+
+# IntelliJ IDEA-specific files
+*.idea/
+out/
+
+# Node.js dependencies and build artifacts
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+*.gz
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# Spring Boot DevTools
+spring-boot-devtools.jar
+
+# Application-specific files
+*.keystore
+*.p12
+*.pem
+
+# Environment variable files
+.env
+
+# Dependency directories
+/.m2/
+.gradle/
+
+# Test coverage reports
+coverage/
+
+# Python-specific (if applicable)
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
